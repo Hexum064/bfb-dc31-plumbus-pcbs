@@ -1,0 +1,2689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>M:\BFB\DC31\plumbus-badge\plumbus-bfb-pcb\plumbus-bfb.kicad_sch</source>
+    <date>2023-05-26 23:25:02</date>
+    <tool>Eeschema 7.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>plumbus-bfb.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="B1">
+      <value>mode</value>
+      <footprint>TS-1101-C-W:SW_PTS636_SM43J_SMTR_LFS</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e44a876c-49fd-43b6-855e-c244598e8bf0</tstamps>
+    </comp>
+    <comp ref="B2">
+      <value>key1</value>
+      <footprint>DTSM-21R-V-B:DTSM-21R-V-B</footprint>
+      <libsource lib="DTSM-21R-V-B" part="DTSM-21R-V-B" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45fd2a88-be95-432e-a19b-9bb26ffe0be9</tstamps>
+    </comp>
+    <comp ref="B3">
+      <value>key2</value>
+      <footprint>DTSM-21R-V-B:DTSM-21R-V-B</footprint>
+      <libsource lib="DTSM-21R-V-B" part="DTSM-21R-V-B" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ff8a4cd-69a2-45fd-9eb5-a5ccf11e3489</tstamps>
+    </comp>
+    <comp ref="B4">
+      <value>key3</value>
+      <footprint>DTSM-21R-V-B:DTSM-21R-V-B</footprint>
+      <libsource lib="DTSM-21R-V-B" part="DTSM-21R-V-B" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7f9eeb0-e055-43db-aa05-3139cb1ddd25</tstamps>
+    </comp>
+    <comp ref="B5">
+      <value>key4</value>
+      <footprint>DTSM-21R-V-B:DTSM-21R-V-B</footprint>
+      <libsource lib="DTSM-21R-V-B" part="DTSM-21R-V-B" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b1821b7-9371-469c-a60a-fc3a4781c06f</tstamps>
+    </comp>
+    <comp ref="B6">
+      <value>reset</value>
+      <footprint>TS-1101-C-W:SW_PTS636_SM43J_SMTR_LFS</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4b645e2-aee6-40f6-a176-66a63442e0d0</tstamps>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <footprint>Battery:BatteryHolder_MPD_BC2AAPC_2xAA</footprint>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Multiple-cell battery"/>
+      <property name="ki_keywords" value="batt voltage-source cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>033dc6d9-9ef4-4ef7-9a98-7abe89100bdd</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce40a0bf-e20d-4bcd-8869-3b4ccde112c6</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ddafb95-0dac-475f-a097-d07aa0ca27a4</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae4a65a3-83c5-40bc-9212-6ed87098091f</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>998badf3-8c33-446b-8444-b282a7fc202f</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>470uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810171524_Hunan-Xiangyee-in-S-T-CA45-D6R3K477T_C123270.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2492cc5-3d8b-4935-bb4c-41c2f3593299</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c06432a0-01ee-4bd9-bce4-8f1ee7741ba5</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2105c66-88f3-476e-b633-255fa4d8d18b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c03aaad-1707-401a-9074-3ce53e769ca5</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f16926c4-13de-4740-8eb3-b3a87dcfd0ed</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>542a8b5f-de46-417c-a33e-fb02ed9748d4</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d40a6566-ceeb-4c3f-85a9-494cc1db12ad</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>.474uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5e8e450-4894-44d1-84c7-bc6ef0b831e6</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>.220uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fda20ab-c5e0-417b-a6a0-369d85d91fb0</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>.474uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2d6f6f6-ef00-4bf3-822c-e35bc3ecd057</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c60972a-5a97-490b-b1dd-6e0e033b385e</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e99ac580-5f5d-4fdb-b537-e485878e0242</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e5f7a11-9552-4fb8-878d-37a8dc3fdd34</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c271e97-07fd-4b71-b504-dc07b10b75a8</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83d88ebd-93a8-464b-b2ef-3ec825f47ddd</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>194902db-6223-429c-97cf-a0b3e6d9cfef</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d36aef5-f779-4a12-b298-9cc96cba31ea</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5a1d599-512a-4aa5-a4d0-27dc5dfc838a</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5c77629-0c62-47b5-8009-387572d310cd</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cc3e956-45b9-46cc-aa1b-1879c5235db3</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb754fa2-b863-4d15-9bed-1cd85cdfc5f1</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ea32581-313e-4a24-95b0-7e212ff75955</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>287b3723-751a-4c34-bfbf-29e76e97b36a</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dfe58ed-86c1-499a-89e0-6243d14acc93</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b160c5fb-ebf0-423f-b251-65bfb1b84e21</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20f95cda-cfd7-4d0b-996b-a1a2f3df3b5f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>red</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cbdd1f8-a167-4c69-b59b-24d55de07979</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>red</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88845b2b-2cb4-433b-9332-836d0141c325</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>red</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f87f563-7e06-4055-a4e8-669581d934f1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae08ee84-7a74-4d2f-9cb9-23b653b4aecb</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eda2d9d0-6599-4236-8920-01f60971b781</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9078d15-3d7e-4907-b125-e7e395c38458</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH</value>
+      <footprint>Inductor_SMD:L_1008_2520Metric</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>882e1cf8-822c-481c-8603-9893cf931532</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>905b00eb-9253-40fd-ab6d-cbdbcc214c3a</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>PZT2222A/MMBT2222A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="PZT2222A" description="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, SOT-223"/>
+      <property name="ki_keywords" value="NPN General Puprose Transistor SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad2e9a5d-baa5-4334-9e16-4a9fbf8721c2</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26600896-62d0-424e-bbae-a06823c3fd00</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0651ffef-64e4-4102-9189-e3e060de68b9</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9a06616-87e6-4b3d-99eb-2ac174fd6a2e</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4914b68a-a08e-42f9-8444-3b53b65ad56d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf32e96c-6950-4fa6-88e1-7759d8ec8d66</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccbf00b2-9f3c-4012-a7e2-e4a92968fbed</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f11766b-5ed5-4d16-8dc8-903d9b278ed6</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5875f03-91cb-4190-a6a6-636902d4c16f</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3724186c-dac3-4e3c-9a71-017c35f05152</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ece5910d-cfae-4250-a35e-8aa6952b2234</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0196d1a1-0ab0-49ac-ad59-42eb8be628d5</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38811ea0-5ed4-4252-affd-e3332ae5f78e</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4275b51-d5d6-4c68-abd0-50e541cbc203</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a992f44a-f902-41ac-853e-0d7a2d08a3b3</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>20k</value>
+      <footprint>TRIM-3352T:TRIM_3352T-1-103LF</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed3c2c18-5b31-4d10-8a43-8547e2afffd4</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>~</value>
+      <footprint>SM150508-7:SM150508-7</footprint>
+      <libsource lib="SM150508-7" part="SM150508-7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f4d7159-3c02-4e31-859f-c6a7ef4ceb0a</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST</value>
+      <footprint>MSS3-V-T/TA-3524A-A1-W:MSS3VTR</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>282b844e-6b80-4501-9ca9-aa3ad020adb5</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATxmega16E5-M</value>
+      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8153-8-and-16-bit-AVR-Microcontroller-XMEGA-E-ATxmega8E5-ATxmega16E5-ATxmega32E5_Datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATxmega16E5-M" description="32MHz, 16kB Flash, 4kB Boot, 2kB SRAM, 512B EEPROM, QFN-32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="32MHz, 16kB Flash, 4kB Boot, 2kB SRAM, 512B EEPROM, QFN-32"/>
+      <property name="ki_keywords" value="AVR 8/16bit Microcontroller XMegaAVR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e00a9c9-5194-4847-a15d-680605b57414</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TCA6416APWR</value>
+      <footprint>Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm</footprint>
+      <libsource lib="TCA6416APWR" part="TCA6416APWR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc1decd4-9f0e-4c18-a77e-f2638118355f</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>NCS2211DR2G/SC8002B</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Package">SOIC127P600X175-8N</field>
+      </fields>
+      <libsource lib="NCS2211DR2G" part="NCS2211DR2G" description=""/>
+      <property name="Manufacturer" value="ON Semiconductor"/>
+      <property name="Package" value="SOIC127P600X175-8N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d8e1131-06cc-4501-b25a-abe237ad952f</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TPS63001DRCR</value>
+      <footprint>TPS63001DRCR:VREG_V62_16624-01YE</footprint>
+      <libsource lib="TPS63001DRCR" part="TPS63001DRCR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66da8d2a-df71-4aff-b842-d1ce294ba2a6</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1021f4c5-9252-47b7-807b-133e40931b67</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03d3a408-14f9-4427-a905-80fce5b41ab6</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e86e606e-9cd5-4db9-a06a-0cbd391a16c8</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7edbf377-2206-4cab-b8c6-4aaf176187fa</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87f461fa-2676-4650-8f3d-0d97d4724596</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>527e50c8-f4da-49c4-8a6e-dbd5c9fc1d13</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb56f470-94c5-4093-ab24-c89a5ca18550</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dcdc511-0bc7-470d-b012-d856d83925d7</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b35f61a-f30c-4746-b308-ea4d737e67c6</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e918494-75b9-4602-8b60-99a0282df3bf</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23a27ddb-9181-4e23-842d-dceca3e5e0ef</tstamps>
+    </comp>
+    <comp ref="U16">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>508b0abd-9c2c-4283-becf-b51dab9427b4</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e6d1461-196e-48de-979d-de2c76b614b2</tstamps>
+    </comp>
+    <comp ref="U18">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68dc5b4b-002b-49c6-be47-dfae16494b89</tstamps>
+    </comp>
+    <comp ref="U19">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a5c01dc-ce53-4eb7-9485-2b4da0eb868c</tstamps>
+    </comp>
+    <comp ref="U20">
+      <value>KTH1601SL-ST3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</datasheet>
+      <libsource lib="Sensor_Magnetic" part="A1301KLHLT-T" description="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall Effect Sensor, SOT-23W"/>
+      <property name="ki_keywords" value="hall switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1fc2b38-a670-4144-afde-5117adfe4675</tstamps>
+    </comp>
+    <comp ref="U21">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0a6b2c5-a94b-46c9-a9c0-38de3ec079d4</tstamps>
+    </comp>
+    <comp ref="U22">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6bc199e-ff51-4907-84ee-07344fb1ddc9</tstamps>
+    </comp>
+    <comp ref="U23">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdd32413-b6e4-428c-a0bf-7f05dea22032</tstamps>
+    </comp>
+    <comp ref="U24">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7ba6206-c1a0-4ad2-9f80-284b134bfb41</tstamps>
+    </comp>
+    <comp ref="U25">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb1106d7-3e9a-486a-a7eb-29b005fa75d8</tstamps>
+    </comp>
+    <comp ref="U26">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>368b37c1-9a09-47f2-8d67-9e4e00a148d6</tstamps>
+    </comp>
+    <comp ref="U27">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e197a285-d352-478c-af27-a37bb371a3bb</tstamps>
+    </comp>
+    <comp ref="U28">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbc0f437-e569-4f82-b35f-68393d23692d</tstamps>
+    </comp>
+    <comp ref="U29">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c732cece-635a-44d4-80c1-02466232f275</tstamps>
+    </comp>
+    <comp ref="U30">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>493c7dad-0167-424f-bd06-e0e574678482</tstamps>
+    </comp>
+    <comp ref="U31">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>384f5935-7ab0-4b31-b91c-fb982e02879c</tstamps>
+    </comp>
+    <comp ref="U32">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0775a635-58ca-4874-aace-f8a506c4ecfb</tstamps>
+    </comp>
+    <comp ref="U33">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06735276-81a4-4444-9943-c71387c1f87b</tstamps>
+    </comp>
+    <comp ref="U34">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6d74f57-5050-4eb1-9f7c-839acdddce6d</tstamps>
+    </comp>
+    <comp ref="U35">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df75fa46-9cb2-47e7-94ba-fddfa54b8bdd</tstamps>
+    </comp>
+    <comp ref="U36">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b78ff50a-dbde-4d05-ad4a-626be6dd9d87</tstamps>
+    </comp>
+    <comp ref="U37">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ad99f9c-a503-4961-a0e9-09082a8a929c</tstamps>
+    </comp>
+    <comp ref="U38">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a272079a-5b3f-4103-ad3b-2cf09b21ae3e</tstamps>
+    </comp>
+    <comp ref="U39">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db129882-173c-46e3-9989-3811ec5a8b36</tstamps>
+    </comp>
+    <comp ref="U40">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abcafaad-0baf-42aa-9c0b-02b181536285</tstamps>
+    </comp>
+    <comp ref="U41">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d3e38b1-f270-432a-be87-2ef2d8ebc164</tstamps>
+    </comp>
+    <comp ref="U42">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ab96b44-a02f-4023-b086-b65a97722dcb</tstamps>
+    </comp>
+    <comp ref="U43">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2698e128-7f0e-41f7-86a1-e05716b6bce5</tstamps>
+    </comp>
+    <comp ref="U44">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63467af5-102d-4475-872d-0c95ce041a56</tstamps>
+    </comp>
+    <comp ref="U45">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbd135ee-2b88-4dc9-98d5-22d4a0a4134c</tstamps>
+    </comp>
+    <comp ref="U46">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b284da78-e07a-41d4-8c1d-df24a7a2c43b</tstamps>
+    </comp>
+    <comp ref="U47">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ccd7504-67ac-407a-ab01-3a4fb951f562</tstamps>
+    </comp>
+    <comp ref="U48">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bef92d4-09a4-4857-8008-bc87755c25ee</tstamps>
+    </comp>
+    <comp ref="U49">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de93ef21-f683-465c-b0b6-a656569c878d</tstamps>
+    </comp>
+    <comp ref="U50">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7eeb0233-c8c9-4bc2-8ba8-6d72157b7319</tstamps>
+    </comp>
+    <comp ref="U51">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d3aa396-1c0e-4ef7-a2ec-2be9931ae5ae</tstamps>
+    </comp>
+    <comp ref="U52">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bf8c089-b254-43e0-b562-ba7a9eb6fcef</tstamps>
+    </comp>
+    <comp ref="U53">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cf67371-c6a4-4220-b224-138f9f0ec5a7</tstamps>
+    </comp>
+    <comp ref="U54">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d1db9f0-6910-4ae6-985b-c51fc57be579</tstamps>
+    </comp>
+    <comp ref="U55">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c8038fc-e790-44ae-910e-bc37b2bf404f</tstamps>
+    </comp>
+    <comp ref="U56">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37801b93-b125-4e45-87f7-b5d1719f0ffd</tstamps>
+    </comp>
+    <comp ref="U57">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96ebe3a0-5ecc-4b17-85bb-062bd04c4da3</tstamps>
+    </comp>
+    <comp ref="U58">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1332fe4-029d-49c0-a2ec-9f95e215cb77</tstamps>
+    </comp>
+    <comp ref="U59">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>700df4e5-ef5f-468d-ab4b-d3fbc79c69cd</tstamps>
+    </comp>
+    <comp ref="U60">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db05c0f8-a1ff-4f31-a971-d52855cd35b4</tstamps>
+    </comp>
+    <comp ref="U61">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c6431f1-43d8-460c-8ed3-5611d0c15879</tstamps>
+    </comp>
+    <comp ref="U62">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15243e71-4c85-43e7-8686-a1ee556d2d71</tstamps>
+    </comp>
+    <comp ref="U63">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2170ed2-11f6-49a8-b6ac-12b48034f28f</tstamps>
+    </comp>
+    <comp ref="U64">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c779b97-51f9-4c3a-b071-eebc2d0eda31</tstamps>
+    </comp>
+    <comp ref="U65">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea862586-8d57-4fe3-a140-55269202cbdc</tstamps>
+    </comp>
+    <comp ref="U66">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51df7b6a-7c82-4855-b852-f72531ada10b</tstamps>
+    </comp>
+    <comp ref="U67">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ca6f508-9227-43d4-842b-2b8c461d259d</tstamps>
+    </comp>
+    <comp ref="U68">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b74bfc6e-1018-4914-99ba-7b8ea08b9099</tstamps>
+    </comp>
+    <comp ref="U69">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>140edef5-6070-45a4-af9b-49ca667b006b</tstamps>
+    </comp>
+    <comp ref="U70">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2904efa3-3164-4c59-8eb5-cc0c085578a0</tstamps>
+    </comp>
+    <comp ref="U71">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55cb2feb-6544-4963-8ee9-0242ae60542d</tstamps>
+    </comp>
+    <comp ref="U72">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ecc4f7e-28ef-45b8-bfa7-d2b5b1dc3583</tstamps>
+    </comp>
+    <comp ref="U73">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bcdb993-be72-4a26-8817-f104888a60e2</tstamps>
+    </comp>
+    <comp ref="U74">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc08a757-2bab-4b22-a2bc-e0dc957f5281</tstamps>
+    </comp>
+    <comp ref="U75">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6813eebd-e758-4017-a428-4bf2b03359c7</tstamps>
+    </comp>
+    <comp ref="U76">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf</datasheet>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plumbus-bfb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce1fed5f-0147-43c0-9b95-896f1975a6ed</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Socket">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DTSM-21R-V-B" part="DTSM-21R-V-B">
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">DTSM-21R-V-B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="passive" type="passive"/>
+        <pin num="4" name="passive" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery">
+      <description>Multiple-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATxmega16E5-M">
+      <description>32MHz, 16kB Flash, 4kB Boot, 2kB SRAM, 512B EEPROM, QFN-32</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8153-8-and-16-bit-AVR-Microcontroller-XMEGA-E-ATxmega8E5-ATxmega16E5-ATxmega32E5_Datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*5x5mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATxmega16E5-M</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8153-8-and-16-bit-AVR-Microcontroller-XMEGA-E-ATxmega8E5-ATxmega16E5-ATxmega32E5_Datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="PA4" type="bidirectional"/>
+        <pin num="3" name="PA3" type="bidirectional"/>
+        <pin num="4" name="PA2" type="bidirectional"/>
+        <pin num="5" name="PA1" type="bidirectional"/>
+        <pin num="6" name="AREF/PA0" type="bidirectional"/>
+        <pin num="7" name="PDI_DATA" type="bidirectional"/>
+        <pin num="8" name="~{RESET}/PDI_CLK" type="input"/>
+        <pin num="9" name="PC7" type="bidirectional"/>
+        <pin num="10" name="PC6" type="bidirectional"/>
+        <pin num="11" name="PC5" type="bidirectional"/>
+        <pin num="12" name="PC4" type="bidirectional"/>
+        <pin num="13" name="PC3" type="bidirectional"/>
+        <pin num="14" name="PC2" type="bidirectional"/>
+        <pin num="15" name="PC1" type="bidirectional"/>
+        <pin num="16" name="PC0" type="bidirectional"/>
+        <pin num="17" name="VCC" type="power_in"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="PR1/XTAL1" type="bidirectional"/>
+        <pin num="20" name="PR0/XTAL2" type="bidirectional"/>
+        <pin num="21" name="PD7" type="bidirectional"/>
+        <pin num="22" name="PD6" type="bidirectional"/>
+        <pin num="23" name="PD5" type="bidirectional"/>
+        <pin num="24" name="PD4" type="bidirectional"/>
+        <pin num="25" name="PD3" type="bidirectional"/>
+        <pin num="26" name="PD2" type="bidirectional"/>
+        <pin num="27" name="PD1" type="bidirectional"/>
+        <pin num="28" name="PD0/AREF" type="bidirectional"/>
+        <pin num="29" name="PA7" type="bidirectional"/>
+        <pin num="30" name="PA6" type="bidirectional"/>
+        <pin num="31" name="PA5" type="bidirectional"/>
+        <pin num="32" name="AVCC" type="power_in"/>
+        <pin num="33" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NCS2211DR2G" part="NCS2211DR2G">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCS2211DR2G</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Package">SOIC127P600X175-8N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ENABLE" type="input"/>
+        <pin num="2" name="BIAS" type="output"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="IN-" type="input"/>
+        <pin num="5" name="OUT+" type="output"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="VEE" type="power_in"/>
+        <pin num="8" name="OUT-" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="SM150508-7" part="SM150508-7">
+      <fields>
+        <field name="Reference">S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Magnetic" part="A1301KLHLT-T">
+      <description>Linear Hall Effect Sensor, SOT-23W</description>
+      <docs>http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</docs>
+      <footprints>
+        <fp>SOT?23W*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">A1301KLHLT-T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23W</field>
+        <field name="Datasheet">http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="VOUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TCA6416APWR" part="TCA6416APWR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA6416APWR</field>
+        <field name="Footprint">SOP65P640X120-24N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{INT}" type="output"/>
+        <pin num="2" name="VCC1" type="power_in"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="P00" type="bidirectional"/>
+        <pin num="5" name="P01" type="bidirectional"/>
+        <pin num="6" name="P02" type="bidirectional"/>
+        <pin num="7" name="P03" type="bidirectional"/>
+        <pin num="8" name="P04" type="bidirectional"/>
+        <pin num="9" name="P05" type="bidirectional"/>
+        <pin num="10" name="P06" type="bidirectional"/>
+        <pin num="11" name="P07" type="bidirectional"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="P10" type="bidirectional"/>
+        <pin num="14" name="P11" type="bidirectional"/>
+        <pin num="15" name="P12" type="bidirectional"/>
+        <pin num="16" name="P13" type="bidirectional"/>
+        <pin num="17" name="P14" type="bidirectional"/>
+        <pin num="18" name="P15" type="bidirectional"/>
+        <pin num="19" name="P16" type="bidirectional"/>
+        <pin num="20" name="P17" type="bidirectional"/>
+        <pin num="21" name="ADDR" type="input"/>
+        <pin num="22" name="SCL" type="input"/>
+        <pin num="23" name="SDA" type="bidirectional"/>
+        <pin num="24" name="VCCP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS63001DRCR" part="TPS63001DRCR">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">TPS63001DRCR</field>
+        <field name="Footprint">VREG_V62/16624-01YE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="output"/>
+        <pin num="2" name="L2" type="bidirectional"/>
+        <pin num="3" name="PGND" type="power_in"/>
+        <pin num="4" name="L1" type="bidirectional"/>
+        <pin num="5" name="VIN" type="input"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="PS/SYNC" type="input"/>
+        <pin num="8" name="VINA" type="input"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="FB" type="input"/>
+        <pin num="11" name="THERMAL_PAD" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="PZT2222A">
+      <description>1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, SOT-223</description>
+      <docs>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PZT2222A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ws2812b-1010" part="ws2812b-1010">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DO" type="output"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="DI" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="DTSM-21R-V-B">
+      <uri>M:\My Documents\Google Drive\Circuit Schematic Parts\DTSM-21R-V-B.pretty\DTSM-21R-V-B.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Microchip_ATmega.kicad_sym</uri>
+    </library>
+    <library logical="NCS2211DR2G">
+      <uri>M:\My Documents\Google Drive\Circuit Schematic Parts\NCS2211DR2G.pretty\NCS2211DR2G.kicad_sym</uri>
+    </library>
+    <library logical="SM150508-7">
+      <uri>M:\My Documents\Google Drive\Circuit Schematic Parts\SM150508-7.pretty\SM150508-7.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Magnetic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Magnetic.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="TCA6416APWR">
+      <uri>M:/My Documents/Google Drive/Circuit Schematic Parts/TCA6416A.pretty/TCA6416APWR.kicad_sym</uri>
+    </library>
+    <library logical="TPS63001DRCR">
+      <uri>M:/My Documents/Google Drive/Circuit Schematic Parts/TPS63001DRCR.pretty/TPS63001DRCR.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="ws2812b-1010">
+      <uri>M:\My Documents\Google Drive\Circuit Schematic Parts\WS2812b-1010.pretty\ws2812b-1010.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U10" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U11" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U12" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U13" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U14" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U15" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U16" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U17" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U18" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U19" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VCC1" pintype="power_in"/>
+      <node ref="U2" pin="24" pinfunction="VCCP" pintype="power_in"/>
+      <node ref="U20" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U21" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U22" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U23" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U24" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U25" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U26" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U27" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U28" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U29" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U30" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U31" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U32" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U33" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U34" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U35" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U36" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U37" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U38" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U39" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VOUT" pintype="output"/>
+      <node ref="U4" pin="10" pinfunction="FB" pintype="input"/>
+      <node ref="U40" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U41" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U42" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U43" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U44" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U45" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U46" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U47" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U48" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U49" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U50" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U51" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U52" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U53" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U54" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U55" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U56" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U57" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U58" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U59" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U60" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U61" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U62" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U63" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U64" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U65" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U66" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U67" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U68" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U69" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U70" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U71" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U72" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U73" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U74" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U75" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U76" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U9" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="B1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="B2" pin="3" pinfunction="passive" pintype="passive"/>
+      <node ref="B2" pin="4" pinfunction="passive" pintype="passive"/>
+      <node ref="B3" pin="3" pinfunction="passive" pintype="passive"/>
+      <node ref="B3" pin="4" pinfunction="passive" pintype="passive"/>
+      <node ref="B4" pin="3" pinfunction="passive" pintype="passive"/>
+      <node ref="B4" pin="4" pinfunction="passive" pintype="passive"/>
+      <node ref="B5" pin="3" pinfunction="passive" pintype="passive"/>
+      <node ref="B5" pin="4" pinfunction="passive" pintype="passive"/>
+      <node ref="B6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="GND" pintype="passive"/>
+      <node ref="U21" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U22" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U23" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U24" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U25" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U26" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U27" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U28" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U29" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="ENABLE" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="VEE" pintype="power_in"/>
+      <node ref="U30" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U31" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U32" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U33" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U34" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U35" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U36" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U37" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U38" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U39" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="11" pinfunction="THERMAL_PAD" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U4" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U40" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U41" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U42" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U43" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U44" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U45" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U46" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U47" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U48" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U49" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U50" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U51" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U52" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U53" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U54" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U55" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U56" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U57" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U58" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U59" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U60" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U61" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U62" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U63" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U64" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U65" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U66" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U67" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U68" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U69" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U70" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U71" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U72" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U73" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U74" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U75" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U76" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(BT1-+)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="PD5" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="PD6" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PDI_DATA" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="Net-(J1-Pin_3)">
+      <node ref="B6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="~{RESET}/PDI_CLK" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(J2-Pin_5)">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(J2-Pin_6)">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="Net-(J3-Pin_6)">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="Net-(Q1-G)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="Net-(Q2-B)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q2-C)">
+      <node ref="Q2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="Net-(Q2-E)">
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(U1-AREF{slash}PA0)">
+      <node ref="B1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="AREF/PA0" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="Net-(U1-PA2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Net-(U1-PA4)">
+      <node ref="B2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="B2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Net-(U1-PA5)">
+      <node ref="B3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="B3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(U1-PA6)">
+      <node ref="B4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="B4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(U1-PA7)">
+      <node ref="B5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="B5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(U1-PD0{slash}AREF)">
+      <node ref="U1" pin="28" pinfunction="PD0/AREF" pintype="bidirectional"/>
+      <node ref="U21" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(U1-PD4)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="Net-(U2-P00)">
+      <node ref="U2" pin="4" pinfunction="P00" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="34" name="Net-(U2-P01)">
+      <node ref="U2" pin="5" pinfunction="P01" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="35" name="Net-(U2-P02)">
+      <node ref="U2" pin="6" pinfunction="P02" pintype="bidirectional"/>
+      <node ref="U7" pin="2" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="36" name="Net-(U2-P03)">
+      <node ref="U2" pin="7" pinfunction="P03" pintype="bidirectional"/>
+      <node ref="U8" pin="2" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="37" name="Net-(U2-P04)">
+      <node ref="U2" pin="8" pinfunction="P04" pintype="bidirectional"/>
+      <node ref="U9" pin="2" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="38" name="Net-(U2-P17)">
+      <node ref="U2" pin="20" pinfunction="P17" pintype="bidirectional"/>
+      <node ref="U20" pin="2" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="39" name="Net-(U2-~{RESET})">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(U3-BIAS)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="BIAS" pintype="output"/>
+      <node ref="U3" pin="3" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(U3-IN-)">
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(U3-OUT+)">
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="OUT+" pintype="output"/>
+    </net>
+    <net code="43" name="Net-(U3-OUT-)">
+      <node ref="S1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="OUT-" pintype="output"/>
+    </net>
+    <net code="44" name="Net-(U4-EN)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="EN" pintype="input"/>
+      <node ref="U4" pin="7" pinfunction="PS/SYNC" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="VINA" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(U4-L1)">
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="L1" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="Net-(U4-L2)">
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="L2" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="Net-(U10-VOUT)">
+      <node ref="U10" pin="2" pinfunction="VOUT" pintype="output"/>
+      <node ref="U2" pin="9" pinfunction="P05" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="Net-(U11-VOUT)">
+      <node ref="U11" pin="2" pinfunction="VOUT" pintype="output"/>
+      <node ref="U2" pin="10" pinfunction="P06" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="Net-(U12-VOUT)">
+      <node ref="U12" pin="2" pinfunction="VOUT" pintype="output"/>
+      <node ref="U2" pin="11" pinfunction="P07" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="Net-(U13-VOUT)">
+      <node ref="U13" pin="2" pinfunction="VOUT" pintype="output"/>
+      <node ref="U2" pin="13" pinfunction="P10" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="Net-(U14-VOUT)">
+      <node ref="U14" pin="2" pinfunction="VOUT" pintype="output"/>
+      <node ref="U2" pin="14" pinfunction="P11" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="Net-(U15-VOUT)">
+      <node ref="U15" pin="2" pinfunction="VOUT" pintype="output"/>
+      <node ref="U2" pin="15" pinfunction="P12" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="Net-(U16-VOUT)">
+      <node ref="U16" pin="2" pinfunction="VOUT" pintype="output"/>
+      <node ref="U2" pin="16" pinfunction="P13" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="Net-(U17-VOUT)">
+      <node ref="U17" pin="2" pinfunction="VOUT" pintype="output"/>
+      <node ref="U2" pin="17" pinfunction="P14" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="Net-(U18-VOUT)">
+      <node ref="U18" pin="2" pinfunction="VOUT" pintype="output"/>
+      <node ref="U2" pin="18" pinfunction="P15" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="Net-(U19-VOUT)">
+      <node ref="U19" pin="2" pinfunction="VOUT" pintype="output"/>
+      <node ref="U2" pin="19" pinfunction="P16" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="Net-(U21-DO)">
+      <node ref="U21" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U22" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(U22-DO)">
+      <node ref="U22" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U23" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(U23-DO)">
+      <node ref="U23" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U24" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(U24-DO)">
+      <node ref="U24" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U25" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(U25-DO)">
+      <node ref="U25" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U26" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="62" name="Net-(U26-DO)">
+      <node ref="U26" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U27" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="63" name="Net-(U27-DO)">
+      <node ref="U27" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U28" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="64" name="Net-(U28-DO)">
+      <node ref="U28" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U29" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="65" name="Net-(U29-DO)">
+      <node ref="U29" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U30" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(U30-DO)">
+      <node ref="U30" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U31" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(U31-DO)">
+      <node ref="U31" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U32" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(U32-DO)">
+      <node ref="U32" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U33" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="69" name="Net-(U33-DO)">
+      <node ref="U33" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U34" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="70" name="Net-(U34-DO)">
+      <node ref="U34" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U35" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="71" name="Net-(U35-DO)">
+      <node ref="U35" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U36" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(U36-DO)">
+      <node ref="U36" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U37" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="73" name="Net-(U37-DO)">
+      <node ref="U37" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U38" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="74" name="Net-(U38-DO)">
+      <node ref="U38" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U39" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(U39-DO)">
+      <node ref="U39" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U40" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="76" name="Net-(U40-DO)">
+      <node ref="U40" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U41" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="77" name="Net-(U41-DO)">
+      <node ref="U41" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U42" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="78" name="Net-(U42-DO)">
+      <node ref="U42" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U43" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="79" name="Net-(U43-DO)">
+      <node ref="U43" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U44" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="80" name="Net-(U44-DO)">
+      <node ref="U44" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U45" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="81" name="Net-(U45-DO)">
+      <node ref="U45" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U46" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="82" name="Net-(U46-DO)">
+      <node ref="U46" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U47" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="83" name="Net-(U47-DO)">
+      <node ref="U47" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U48" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="84" name="Net-(U48-DO)">
+      <node ref="U48" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U49" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="85" name="Net-(U49-DO)">
+      <node ref="U49" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U50" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="86" name="Net-(U50-DO)">
+      <node ref="U50" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U51" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="87" name="Net-(U51-DO)">
+      <node ref="U51" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U52" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="88" name="Net-(U52-DO)">
+      <node ref="U52" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U53" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="89" name="Net-(U53-DO)">
+      <node ref="U53" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U54" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="90" name="Net-(U54-DO)">
+      <node ref="U54" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U55" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="91" name="Net-(U55-DO)">
+      <node ref="U55" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U56" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="92" name="Net-(U56-DO)">
+      <node ref="U56" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U57" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="93" name="Net-(U57-DO)">
+      <node ref="U57" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U58" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="94" name="Net-(U58-DO)">
+      <node ref="U58" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U59" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="95" name="Net-(U59-DO)">
+      <node ref="U59" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U60" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="96" name="Net-(U60-DO)">
+      <node ref="U60" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U61" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="97" name="Net-(U61-DO)">
+      <node ref="U61" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U62" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="98" name="Net-(U62-DO)">
+      <node ref="U62" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U63" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="99" name="Net-(U63-DO)">
+      <node ref="U63" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U64" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="100" name="Net-(U64-DO)">
+      <node ref="U64" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U65" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="101" name="Net-(U65-DO)">
+      <node ref="U65" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U66" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="102" name="Net-(U66-DO)">
+      <node ref="U66" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U67" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="103" name="Net-(U67-DO)">
+      <node ref="U67" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U68" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="104" name="Net-(U68-DO)">
+      <node ref="U68" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U69" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="105" name="Net-(U69-DO)">
+      <node ref="U69" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U70" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="106" name="Net-(U70-DO)">
+      <node ref="U70" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U71" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="107" name="Net-(U71-DO)">
+      <node ref="U71" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U72" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="108" name="Net-(U72-DO)">
+      <node ref="U72" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U73" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="109" name="Net-(U73-DO)">
+      <node ref="U73" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U74" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="110" name="Net-(U74-DO)">
+      <node ref="U74" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U75" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="111" name="Net-(U75-DO)">
+      <node ref="U75" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U76" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="112" name="SCL">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PC1" pintype="bidirectional"/>
+      <node ref="U2" pin="22" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="113" name="SDA">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PC0" pintype="bidirectional"/>
+      <node ref="U2" pin="23" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="114" name="VEE">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U14" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U15" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U16" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U17" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U18" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U19" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="21" pinfunction="ADDR" pintype="input"/>
+      <node ref="U20" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="115" name="unconnected-(U1-PA1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="116" name="unconnected-(U1-PA3-Pad3)">
+      <node ref="U1" pin="3" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="117" name="unconnected-(U1-PC2-Pad14)">
+      <node ref="U1" pin="14" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="118" name="unconnected-(U1-PC3-Pad13)">
+      <node ref="U1" pin="13" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="119" name="unconnected-(U1-PD1-Pad27)">
+      <node ref="U1" pin="27" pinfunction="PD1" pintype="bidirectional"/>
+    </net>
+    <net code="120" name="unconnected-(U1-PD2-Pad26)">
+      <node ref="U1" pin="26" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="121" name="unconnected-(U1-PD3-Pad25)">
+      <node ref="U1" pin="25" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="122" name="unconnected-(U1-PR0{slash}XTAL2-Pad20)">
+      <node ref="U1" pin="20" pinfunction="PR0/XTAL2" pintype="bidirectional"/>
+    </net>
+    <net code="123" name="unconnected-(U1-PR1{slash}XTAL1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="PR1/XTAL1" pintype="bidirectional"/>
+    </net>
+    <net code="124" name="unconnected-(U2-~{INT}-Pad1)">
+      <node ref="U2" pin="1" pinfunction="~{INT}" pintype="output"/>
+    </net>
+    <net code="125" name="unconnected-(U76-DO-Pad1)">
+      <node ref="U76" pin="1" pinfunction="DO" pintype="output"/>
+    </net>
+  </nets>
+</export>
